@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private File Share</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login" id="loginDiv">
+    <h2>Login</h2>
+    <input type="password" id="passwordInput" placeholder="Password">
+    <button id="loginBtn">Login</button>
+    <p id="loginMsg" class="error"></p>
+  </div>
+
+  <div class="app" id="appDiv" style="display:none;">
+    <h1>Upload & Download Files</h1>
+    <input type="file" id="fileInput">
+    <button id="uploadBtn">Upload</button>
+    <ul id="fileList"></ul>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
